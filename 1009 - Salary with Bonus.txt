@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    char c[50];
+    float a;
+    double b,sum;
+
+    gets(c);
+    scanf("%f %lf",&a,&b);
+
+    sum=a+(b*.15);
+
+    printf("TOTAL = R$ %.2lf\n",sum);
+
+    return 0;
+
+}

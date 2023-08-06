@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    double R,sum,n=3.14159;
+    scanf("%lf",&R);
+
+    sum=n*R*R;
+
+    printf("A=%.4lf\n",sum);
+    return 0;
+
+}
